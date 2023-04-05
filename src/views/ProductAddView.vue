@@ -2,7 +2,8 @@
     <div>
         제품 이름: <input type="text" v-model="state.form.productName"><br>
         제품 가격: <input type="text" v-model="state.form.productPrice"><br>
-        이미지: <input type="text" v-model="state.form.imgPath" @keyup.enter="submit"><br>
+        이미지: <input type="text" v-model="state.form.imgPath"><br>
+        카테고리: <input type="text" v-model="state.form.id" @keyup.enter="submit"><br>
         <button @click="submit()">저장</button>
     </div>
 </template>
@@ -16,8 +17,9 @@ export default {
         const state = reactive({
             form : {
                 productName : "",
-                productPrice : 0,
+                productPrice : "",
                 imgPath : "",
+                id:"",
             }
         })
 
