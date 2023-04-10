@@ -5,8 +5,16 @@
     <router-link to="/categoryadd">categoryadd</router-link> |
     <router-link to="/categorylist">categorylist</router-link> |
     <router-link to="/categoryedit">categoryedit</router-link> |
-    <router-link to="/categorydelete">categorydelete</router-link> |
-    <router-link to="/productadd">productadd</router-link>
+    <router-link to="/categorydelete">categorydelete</router-link> <br>
+    <router-link to="/productadd">productadd</router-link> |
+    <router-link to="/productlist">productlist</router-link> |
+    <router-link to="/productedit">productedit</router-link> |
+    <router-link to="/productdelete">productdelete</router-link> <br>
+    <router-link to="/useradd">useradd</router-link> |
+    <router-link to="/userpwcheck">userpwcheck</router-link> |
+    <router-link to="/useredit">useredit</router-link> |
+    <router-link to="/fileupload">fileupload</router-link> |
+    <router-link to="/userlist">userlist</router-link>
   </nav>
   <router-view/>
 </template>

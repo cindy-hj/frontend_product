@@ -5,6 +5,15 @@ import CategoryListView from '../views/CategoryListView.vue'
 import CategoryEditView from '../views/CategoryEditView.vue'
 import CategoryDeleteView from '../views/CategoryDeleteView.vue'
 import ProductAddView from '../views/ProductAddView.vue'
+import ProductListView from '../views/ProductListView.vue'
+import ProductEditView from '../views/ProductEditView.vue'
+import ProductDeleteView from '../views/ProductDeleteView.vue'
+import UserAddView from '../views/UserAddView.vue'
+import UserPwCheckView from '../views/UserPwCheckView.vue'
+import UserEditView from '../views/UserEditView.vue'
+import FileUploadView from '../views/FileUploadView.vue'
+import UserListView from '../views/UserListView.vue'
+
 
 
 const routes = [
@@ -45,6 +54,46 @@ const routes = [
     path: '/productadd',
     name: 'productadd',
     component: ProductAddView
+  },
+  {
+    path: '/productlist',
+    name: 'productlist',
+    component: ProductListView
+  },
+  {
+    path: '/productedit',
+    name: 'productedit',
+    component: ProductEditView
+  },
+  {
+    path: '/productdelete',
+    name: 'productdelete',
+    component: ProductDeleteView
+  },
+  {
+    path: '/useradd',
+    name: 'useradd',
+    component: UserAddView
+  },
+  {
+    path: '/userpwcheck',
+    name: 'userpwcheck',
+    component: UserPwCheckView
+  },
+  {
+    path: '/useredit',
+    name: 'useredit',
+    component: UserEditView
+  },
+  {
+    path: '/fileupload',
+    name: 'fileupload',
+    component: FileUploadView
+  },
+  {
+    path: '/userlist',
+    name: 'userlist',
+    component: UserListView
   },
 ]
 
